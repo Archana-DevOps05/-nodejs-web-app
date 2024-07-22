@@ -8,6 +8,6 @@ module "application-server" {
   name = "nodejs Web App"
   device-index = 0
   network-interface-id = aws_network_interface.nodejs-web-app.id
-  repository-url = "repo URL"
+  repository-url = "aws_ecr_repository.nodejs-web-app.repository_url"
 }
 

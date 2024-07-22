@@ -29,17 +29,7 @@ resource "aws_route_table" "allow-outgoing-access" {
     Name = "Route Table Allowing Outgoing Access"
   }
 }
-# 4.1 Create Subnet - Jenkins
 
-resource "aws_subnet" "subnet1-public-jenkins" {
-  cidr_block = "10.0.1.0/24"
-  vpc_id = aws_vpc.nodejs-web-app.id
-  availability_zone = "us-east-1a"
-
-  tags = {
-    Name = "Jenkins Subnet"
-  }
-}
 
 # 4.1 Create Subnet - Jenkins
 
