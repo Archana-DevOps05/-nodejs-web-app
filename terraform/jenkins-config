@@ -1,0 +1,6 @@
+confirm_url.sh
+create_admin_user.sh
+create_credentials.sh
+create_multibranch_pipeline.sh
+download_install_plugins.sh
+get_credentials.sh
